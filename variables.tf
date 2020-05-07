@@ -1,3 +1,6 @@
 variable "key_name" {
+  type = string
 }
-variable "key_storege_bucket" {}
+variable "key_storage_bucket" {
+  type = string
+}
