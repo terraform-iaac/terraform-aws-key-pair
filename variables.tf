@@ -4,3 +4,7 @@ variable "key_name" {
 variable "key_storage_bucket" {
   type = string
 }
+variable "rsa_bits" {
+  type    = number
+  default = 4096
+}
