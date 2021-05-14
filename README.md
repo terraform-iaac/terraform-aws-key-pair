@@ -7,7 +7,7 @@ Terraform module used to create AWS Key Pair and store them in S3. With simple s
 
 ```terraform
 module "ec2-key" {
-  source        = "terraform-iaac/terraform-aws-key-pair/aws"
+  source        = "terraform-iaac/key-pair/aws"
 
   key_name           = "my-ec2-instance"
   key_storage_bucket = aws_s3_bucket.ssh_key_storage.id
