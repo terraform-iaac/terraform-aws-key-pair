@@ -25,10 +25,10 @@ module "ec2" {
 
 ## Terraform Requirements
 
-| Name | Version |
-|------|---------|
-| terraform | >= 0.12.26 |
-| aws | >= 3.0.0 |
+| Name | Version  |
+|------|----------|
+| terraform | >= 1.3.0 |
+| aws | >= 4.0.0 |
 
 ## Inputs
 
